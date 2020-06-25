@@ -101,11 +101,11 @@ Grouped first by the following categories and then by the [_thing_](http://apps.
 
 ### Function
 
+- [`function-allowlist`](../../../lib/rules/function-allowlist/README.md): Specify a list of allowed functions.
 - [`function-denylist`](../../../lib/rules/function-denylist/README.md): Specify a list of disallowed functions.
 - [`function-url-no-scheme-relative`](../../../lib/rules/function-url-no-scheme-relative/README.md): Disallow scheme-relative urls.
 - [`function-url-scheme-denylist`](../../../lib/rules/function-url-scheme-denylist/README.md): Specify a list of disallowed URL schemes.
-- [`function-url-scheme-whitelist`](../../../lib/rules/function-url-scheme-whitelist/README.md): Specify a whitelist of allowed URL schemes.
-- [`function-whitelist`](../../../lib/rules/function-whitelist/README.md): Specify a whitelist of allowed functions.
+- [`function-url-scheme-allowlist`](../../../lib/rules/function-url-scheme-allowlist/README.md): Specify a list of allowed URL schemes.
 
 ### Keyframes
 
@@ -121,8 +121,8 @@ Grouped first by the following categories and then by the [_thing_](http://apps.
 
 ### Unit
 
+- [`unit-allowlist`](../../../lib/rules/unit-allowlist/README.md): Specify a list of allowed units.
 - [`unit-denylist`](../../../lib/rules/unit-denylist/README.md): Specify a list of disallowed units.
-- [`unit-whitelist`](../../../lib/rules/unit-whitelist/README.md): Specify a whitelist of allowed units.
 
 ### Shorthand property
 
@@ -138,18 +138,18 @@ Grouped first by the following categories and then by the [_thing_](http://apps.
 
 ### Property
 
+- [`property-allowlist`](../../../lib/rules/property-allowlist/README.md): Specify a list of allowed properties.
 - [`property-denylist`](../../../lib/rules/property-denylist/README.md): Specify a list of disallowed properties.
 - [`property-no-vendor-prefix`](../../../lib/rules/property-no-vendor-prefix/README.md): Disallow vendor prefixes for properties.
-- [`property-whitelist`](../../../lib/rules/property-whitelist/README.md): Specify a whitelist of allowed properties.
 
 ### Declaration
 
 - [`declaration-block-no-redundant-longhand-properties`](../../../lib/rules/declaration-block-no-redundant-longhand-properties/README.md): Disallow longhand properties that can be combined into one shorthand property.
 - [`declaration-no-important`](../../../lib/rules/declaration-no-important/README.md): Disallow `!important` within declarations.
+- [`declaration-property-unit-allowlist`](../../../lib/rules/declaration-property-unit-allowlist/README.md): Specify a list of allowed property and unit pairs within declarations.
 - [`declaration-property-unit-denylist`](../../../lib/rules/declaration-property-unit-denylist/README.md): Specify a list of disallowed property and unit pairs within declarations.
-- [`declaration-property-unit-whitelist`](../../../lib/rules/declaration-property-unit-whitelist/README.md): Specify a whitelist of allowed property and unit pairs within declarations.
+- [`declaration-property-value-allowlist`](../../../lib/rules/declaration-property-value-allowlist/README.md): Specify a list of allowed property and value pairs within declarations.
 - [`declaration-property-value-denylist`](../../../lib/rules/declaration-property-value-denylist/README.md): Specify a list of disallowed property and value pairs within declarations.
-- [`declaration-property-value-whitelist`](../../../lib/rules/declaration-property-value-whitelist/README.md): Specify a whitelist of allowed property and value pairs within declarations.
 
 ### Declaration block
 
@@ -157,11 +157,11 @@ Grouped first by the following categories and then by the [_thing_](http://apps.
 
 ### Selector
 
+- [`selector-attribute-operator-allowlist`](../../../lib/rules/selector-attribute-operator-allowlist/README.md): Specify a list of allowed attribute operators.
 - [`selector-attribute-operator-denylist`](../../../lib/rules/selector-attribute-operator-denylist/README.md): Specify a list of disallowed attribute operators.
-- [`selector-attribute-operator-whitelist`](../../../lib/rules/selector-attribute-operator-whitelist/README.md): Specify a whitelist of allowed attribute operators.
 - [`selector-class-pattern`](../../../lib/rules/selector-class-pattern/README.md): Specify a pattern for class selectors.
+- [`selector-combinator-allowlist`](../../../lib/rules/selector-combinator-allowlist/README.md): Specify a list of allowed combinators.
 - [`selector-combinator-denylist`](../../../lib/rules/selector-combinator-denylist/README.md): Specify a list of disallowed combinators.
-- [`selector-combinator-whitelist`](../../../lib/rules/selector-combinator-whitelist/README.md): Specify a whitelist of allowed combinators.
 - [`selector-id-pattern`](../../../lib/rules/selector-id-pattern/README.md): Specify a pattern for ID selectors.
 - [`selector-max-attribute`](../../../lib/rules/selector-max-attribute/README.md): Limit the number of attribute selectors in a selector.
 - [`selector-max-class`](../../../lib/rules/selector-max-class/README.md): Limit the number of classes in a selector.
@@ -176,18 +176,18 @@ Grouped first by the following categories and then by the [_thing_](http://apps.
 - [`selector-nested-pattern`](../../../lib/rules/selector-nested-pattern/README.md): Specify a pattern for the selectors of rules nested within rules.
 - [`selector-no-qualifying-type`](../../../lib/rules/selector-no-qualifying-type/README.md): Disallow qualifying a selector by type.
 - [`selector-no-vendor-prefix`](../../../lib/rules/selector-no-vendor-prefix/README.md): Disallow vendor prefixes for selectors.
+- [`selector-pseudo-class-allowlist`](../../../lib/rules/selector-pseudo-class-allowlist/README.md): Specify a list of allowed pseudo-class selectors.
 - [`selector-pseudo-class-denylist`](../../../lib/rules/selector-pseudo-class-denylist/README.md): Specify a list of disallowed pseudo-class selectors.
-- [`selector-pseudo-class-whitelist`](../../../lib/rules/selector-pseudo-class-whitelist/README.md): Specify a whitelist of allowed pseudo-class selectors.
-- [`selector-pseudo-element-denylist`](../../../lib/rules/selector-pseudo-element-denylist/README.md): Specify a list of disallowed pseudo-element selectors.
+- [`selector-pseudo-element-allowlist`](../../../lib/rules/selector-pseudo-element-allowlist/README.md): Specify a list of allowed pseudo-element selectors.
 - [`selector-pseudo-element-colon-notation`](../../../lib/rules/selector-pseudo-element-colon-notation/README.md): Specify single or double colon notation for applicable pseudo-elements (Autofixable).
-- [`selector-pseudo-element-whitelist`](../../../lib/rules/selector-pseudo-element-whitelist/README.md): Specify a whitelist of allowed pseudo-element selectors.
+- [`selector-pseudo-element-denylist`](../../../lib/rules/selector-pseudo-element-denylist/README.md): Specify a list of disallowed pseudo-element selectors.
 
 ### Media feature
 
+- [`media-feature-name-allowlist`](../../../lib/rules/media-feature-name-allowlist/README.md): Specify a list of allowed media feature names.
 - [`media-feature-name-denylist`](../../../lib/rules/media-feature-name-denylist/README.md): Specify a list of disallowed media feature names.
 - [`media-feature-name-no-vendor-prefix`](../../../lib/rules/media-feature-name-no-vendor-prefix/README.md): Disallow vendor prefixes for media feature names.
-- [`media-feature-name-value-whitelist`](../../../lib/rules/media-feature-name-value-whitelist/README.md): Specify a whitelist of allowed media feature name and value pairs.
-- [`media-feature-name-whitelist`](../../../lib/rules/media-feature-name-whitelist/README.md): Specify a whitelist of allowed media feature names.
+- [`media-feature-name-value-allowlist`](../../../lib/rules/media-feature-name-value-allowlist/README.md): Specify a list of allowed media feature name and value pairs.
 
 ### Custom media
 
@@ -195,10 +195,10 @@ Grouped first by the following categories and then by the [_thing_](http://apps.
 
 ### At-rule
 
+- [`at-rule-allowlist`](../../../lib/rules/at-rule-allowlist/README.md): Specify a list of allowed at-rules.
 - [`at-rule-denylist`](../../../lib/rules/at-rule-denylist/README.md): Specify a list of disallowed at-rules.
 - [`at-rule-no-vendor-prefix`](../../../lib/rules/at-rule-no-vendor-prefix/README.md): Disallow vendor prefixes for at-rules.
 - [`at-rule-property-requirelist`](../../../lib/rules/at-rule-property-requirelist/README.md): Specify a requirelist of properties for an at-rule.
-- [`at-rule-whitelist`](../../../lib/rules/at-rule-whitelist/README.md): Specify a whitelist of allowed at-rules.
 
 ### Comment
 

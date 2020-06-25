@@ -61,7 +61,7 @@ You can add any number of keys in the object. For example, you can:
 
 - turn off `block-no-empty`
 - turn on `comment-empty-line-before` with a primary and secondary option
-- turn on `max-empty-lines` and `unit-whitelist` with primary options
+- turn on `max-empty-lines` and `unit-allowlist` with primary options
 
 ```json
 {
@@ -74,7 +74,7 @@ You can add any number of keys in the object. For example, you can:
       }
     ],
     "max-empty-lines": 2,
-    "unit-whitelist": ["em", "rem", "%", "s"]
+    "unit-allowlist": ["em", "rem", "%", "s"]
   }
 }
 ```
