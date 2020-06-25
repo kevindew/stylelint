@@ -2,7 +2,7 @@
 
 The following classes of rules support regex:
 
-- `*-blacklist`
+- `*-denylist`
 - `*-whitelist`
 - `*-pattern`
 
